@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Tutorial</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="dj-banner">
+        <div class="dj-bg">
+            <img src="coding.png" alt="400" height="400px">
+            <div class="dj-text">
+                
+                <h1><b class="p1">Tutorial</b></h1>
+                <p class="p1">Cómo crear una clase y una instancia de clase</p>
+            </div>
+        </div>            
+    </div>
+    <div class="listas">
+        <h1 >Cómo crear una clase en Java</h1>
+        <ul class="a">
+            <li>Primero declaramos un paquete</li>
+            <dd><img src="1.PNG" ></dd>
+            <li>Creamos los atributos de la clase, en este caso se llama "Empleados"</li>
+            <dd><img src="2.PNG" ></dd>
+            <li>Creamos metodos para obtener el nombre y la edad asi como metodos para establecer la edad.</li>
+            <dd><img src="3.PNG" ></dd>
+            <li>Declaramos y creamos el objeto</li>
+            <dd><img src="4.PNG" ></dd>
+            <li>Creamos un objeto cuyo nombre será "Jonatan"</li>
+            <li>Le establecemos la edad</li>
+            <li>Mostramos el nombre y la edad</li>
+            <dd><img src="5.PNG" ></dd>
+            <li>El resultado es:</li>
+            <dd><img src="6.PNG"></dd>
+          </ul>
+    </div>
+<a href="INDEX.html" >Regresar </a>
+
+
+<style>
+    body {
+  background-color: lightblue;
+}
+    .dj-banner{margin: 30px 0; position: relative;}
+    .dj-banner .dj-bg{background-image: url(background.png); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;}
+    .dj-banner .dj-bg img{display: block; margin: 20px auto; padding: 20px 0;}
+    .dj-banner .dj-text{text-align: center; padding-bottom: 20px;}
+    @media screen and (min-width:768px){
+       .dj-banner .dj-bg img{margin-right: 100px;}
+       .dj-banner .dj-text{position: absolute; top: 50%; left: 10%; transform: translate(-10%, -50%); width: 50%; text-align: left;}
+       .dj-banner .dj-text h1{font-size: calc(2*1.5vw);}
+       .dj-banner .dj-text p{font-size: calc(1.2*1.5vw);}
+    }
+
+    .p1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.listas{
+    font-family: "Monaco", monospace;
+}    
+
+ul.a {
+    font-family: "Lucida Console", "Courier New", monospace;
+  list-style-type: square;
+  line-height : 25px;
+}
+a{
+  text-align: center;
+  border: 3px solid green;
+}
+a:link {
+  background-color: #16656b;
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: 1em sans-serif;;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+ </style>
+
+</body>
+</html>

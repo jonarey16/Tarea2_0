@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Index</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <div class="dj-banner">
+        <div class="dj-bg">
+            <img src="banner.jpg" alt="400" height="400px">
+            <div class="dj-text">
+                
+                <h1><b class="p1">¡Bienvenidos!</b></h1>
+                <p class="p1">Presione la opción que desee</p>
+            </div>
+        </div>            
+    </div>
+
+<a href="CURRICULUM.html" >Ir a Curriculum Personal </a>
+<a href="PELICULA.html" >Ir a mi Pelicula Favorita </a>
+<a href="VIDEOJUEGO.html" >Ir a mi Videojuego Favorito </a>
+<a href="TUTORIAL.html" >Ir al Tutorial </a>
+</body>
+
+<style>
+    body {
+  background-color: lightblue;
+}
+    .dj-banner{margin: 30px 0; position: relative;}
+    .dj-banner .dj-bg{background-image: url(background.png); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;}
+    .dj-banner .dj-bg img{display: block; margin: 20px auto; padding: 20px 0;}
+    .dj-banner .dj-text{text-align: center; padding-bottom: 20px;}
+    @media screen and (min-width:768px){
+       .dj-banner .dj-bg img{margin-right: 100px;}
+       .dj-banner .dj-text{position: absolute; top: 50%; left: 10%; transform: translate(-10%, -50%); width: 50%; text-align: left;}
+       .dj-banner .dj-text h1{font-size: calc(2*1.5vw);}
+       .dj-banner .dj-text p{font-size: calc(1.2*1.5vw);}
+    }
+
+    .p1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+a{
+  text-align: center;
+  border: 3px solid green;
+}
+a:link {
+  background-color: #16656b;
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: 1em sans-serif;;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+ </style>
+
+</html>

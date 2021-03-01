@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Pelicula Favorita</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="dj-banner">
+        <div class="dj-bg">
+            <img src="kings_speech_ver4.jpg" alt="400" height="400px">
+            <div class="dj-text">
+                <h1><b class="p1">Mi Pelicula Favorita</b></h1>
+                <p class="p1">El discurso del Rey</p>
+            </div>
+        </div>            
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <h2 class="resumen">Por qué elegí esta pelicula</h2>
+          <p class="p1">Elegí esta pelicula porque la historia me inspiró bastante y creo que es muy buena. La actuacion de Colin Firth se siente muy vibrante e interpreta el personaje a perfección. </br>
+            Los temas de la pelicula son bastante serios en el cual vemos cómo el rey sobrepasa toda adversidad para poder aprender a comunicarse de mejor manera.</br></p>
+        </div>
+        
+        <div class="column">
+          <h2 class="resumen">Resumen</h2>
+          <p class="p1">El Duque de York tiene que, por orden de su padre, dar un discurso en el estadio, a reventar, de Wembley. El resultado: un desastre. El miedo a hablar en público acentúa su tartamudez. Tras años de terapias inútiles, encontrará a un irreverente logopeda, con curiosos métodos para la época, que sacará a Bertie (así se atreve a llamarle) de su fobia, descubriéndole el origen de su enfermedad y devolviéndole la confianza que tanto necesitaba</br></p>
+        </div>
+        
+        <div class="column">
+          <h2 class="resumen">Trailer</h2>
+          <p><iframe src="https://www.youtube.com/watch?v=KpssjoKZK1w&ab_channel=TrailersyEstrenos" height="200" width="300" title="Trailer de la pelicula"></iframe></p>
+        </div>
+    </div>
+   
+    <a href="INDEX.html" >Regresar </a>
+
+<style>
+    .column {
+  float: left;
+  width: 33.33%;
+  padding: 15px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.p1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  line-height : 25px;
+}
+body {
+            background-color: lightblue;
+          }
+              .dj-banner{margin: 30px 0; position: relative;}
+              .dj-banner .dj-bg{background-image: url(background.png); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;}
+              .dj-banner .dj-bg img{display: block; margin: 20px auto; padding: 20px 0;}
+              .dj-banner .dj-text{text-align: center; padding-bottom: 20px;}
+              @media screen and (min-width:768px){
+                 .dj-banner .dj-bg img{margin-right: 100px;}
+                 .dj-banner .dj-text{position: absolute; top: 50%; left: 10%; transform: translate(-10%, -50%); width: 50%; text-align: left;}
+                 .dj-banner .dj-text h1{font-size: calc(2*1.5vw);}
+                 .dj-banner .dj-text p{font-size: calc(1.2*1.5vw);
+                 }
+              }  
+
+.resumen{
+    font-family: "Monaco", monospace;
+}
+a:link {
+  background-color: #16656b;
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: 1em sans-serif;;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+        </style>
+</body>
+</html>
+
+</style>    
+</body>
+</html>
